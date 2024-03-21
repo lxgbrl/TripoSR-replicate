@@ -2,8 +2,8 @@ import os
 from cog import BasePredictor, Input, Path
 from typing import List
 import sys, shutil
-sys.path.append('/content/TripoSR-hf')
-os.chdir('/content/TripoSR-hf')
+sys.path.append('/content/TripoSR-space')
+os.chdir('/content/TripoSR-space')
 
 import logging
 import os
